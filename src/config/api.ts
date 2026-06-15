@@ -1,7 +1,3 @@
-// ━━━━━━━━ Centralized API Configuration ━━━━━━━━
-// To change server, set VITE_API_BASE_URL in .env file
-// No hardcoded URLs allowed anywhere else
-
 export const API_BASE_URL =
   (import.meta as any).env?.VITE_API_BASE_URL ||
-  "http://localhost:8000";
+  "https://sazmandehi16-production.up.railway.app";
